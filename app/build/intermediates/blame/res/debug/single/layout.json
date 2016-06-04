@@ -1,0 +1,62 @@
+[
+    {
+        "merged": "E:\\MyAsWorkspace\\douding\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_sms.xml",
+        "source": "E:\\MyAsWorkspace\\douding\\app\\src\\main\\res\\layout\\item_sms.xml"
+    },
+    {
+        "merged": "E:\\MyAsWorkspace\\douding\\app\\build\\intermediates\\res\\merged\\debug\\layout\\new_sms.xml",
+        "source": "E:\\MyAsWorkspace\\douding\\app\\src\\main\\res\\layout\\new_sms.xml"
+    },
+    {
+        "merged": "E:\\MyAsWorkspace\\douding\\app\\build\\intermediates\\res\\merged\\debug\\layout\\detail_contact.xml",
+        "source": "E:\\MyAsWorkspace\\douding\\app\\src\\main\\res\\layout\\detail_contact.xml"
+    },
+    {
+        "merged": "E:\\MyAsWorkspace\\douding\\app\\build\\intermediates\\res\\merged\\debug\\layout\\detail_sms.xml",
+        "source": "E:\\MyAsWorkspace\\douding\\app\\src\\main\\res\\layout\\detail_sms.xml"
+    },
+    {
+        "merged": "E:\\MyAsWorkspace\\douding\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_contacts.xml",
+        "source": "E:\\MyAsWorkspace\\douding\\app\\src\\main\\res\\layout\\item_contacts.xml"
+    },
+    {
+        "merged": "E:\\MyAsWorkspace\\douding\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_sms_dialog.xml",
+        "source": "E:\\MyAsWorkspace\\douding\\app\\src\\main\\res\\layout\\item_sms_dialog.xml"
+    },
+    {
+        "merged": "E:\\MyAsWorkspace\\douding\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_dial.xml",
+        "source": "E:\\MyAsWorkspace\\douding\\app\\src\\main\\res\\layout\\fragment_dial.xml"
+    },
+    {
+        "merged": "E:\\MyAsWorkspace\\douding\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main.xml",
+        "source": "E:\\MyAsWorkspace\\douding\\app\\src\\main\\res\\layout\\main.xml"
+    },
+    {
+        "merged": "E:\\MyAsWorkspace\\douding\\app\\build\\intermediates\\res\\merged\\debug\\layout\\popwindow.xml",
+        "source": "E:\\MyAsWorkspace\\douding\\app\\src\\main\\res\\layout\\popwindow.xml"
+    },
+    {
+        "merged": "E:\\MyAsWorkspace\\douding\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_recent.xml",
+        "source": "E:\\MyAsWorkspace\\douding\\app\\src\\main\\res\\layout\\item_recent.xml"
+    },
+    {
+        "merged": "E:\\MyAsWorkspace\\douding\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_sms_detail_dialog.xml",
+        "source": "E:\\MyAsWorkspace\\douding\\app\\src\\main\\res\\layout\\item_sms_detail_dialog.xml"
+    },
+    {
+        "merged": "E:\\MyAsWorkspace\\douding\\app\\build\\intermediates\\res\\merged\\debug\\layout\\login.xml",
+        "source": "E:\\MyAsWorkspace\\douding\\app\\src\\main\\res\\layout\\login.xml"
+    },
+    {
+        "merged": "E:\\MyAsWorkspace\\douding\\app\\build\\intermediates\\res\\merged\\debug\\layout\\first.xml",
+        "source": "E:\\MyAsWorkspace\\douding\\app\\src\\main\\res\\layout\\first.xml"
+    },
+    {
+        "merged": "E:\\MyAsWorkspace\\douding\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_1_3.xml",
+        "source": "E:\\MyAsWorkspace\\douding\\app\\src\\main\\res\\layout\\fragment_1_3.xml"
+    },
+    {
+        "merged": "E:\\MyAsWorkspace\\douding\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_sms.xml",
+        "source": "E:\\MyAsWorkspace\\douding\\app\\src\\main\\res\\layout\\fragment_sms.xml"
+    }
+]

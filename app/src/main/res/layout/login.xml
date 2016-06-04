@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/second"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dip"
+        android:src="@drawable/secondlogo" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dip"
+        android:padding="20dp"
+        android:background="@drawable/shape_background_uers"
+        android:orientation="vertical" 
+        >
+        <EditText
+            android:id="@+id/et_uers"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/user"
+            android:inputType="number"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/et_pwd"
+            android:layout_below="@id/et_uers"           
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:textSize="20sp" 
+            />
+
+        <ImageView 
+            android:id="@+id/img_denglu"
+            android:src="@drawable/button_login"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/et_pwd"
+            android:layout_marginTop="10dip"
+            android:clickable="true"
+            />
+        <CheckBox 
+            android:id="@+id/cb_jizhu"
+            android:layout_below="@id/img_denglu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dip"
+            android:text="@string/remember"
+            android:textColor="#000000"
+            android:layout_marginLeft="15dip"
+            />       
+        <CheckBox 
+            android:id="@+id/cb_zidong"
+            android:layout_below="@id/img_denglu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="5dip"
+            android:text="@string/zidong"
+            android:textColor="#000000"
+            android:layout_alignBottom="@id/cb_jizhu"
+            android:layout_marginRight="15dip"/>
+    </RelativeLayout>
+    
+   
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+        
+        
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="@string/forget"
+            android:textColor="#b69968"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="10dp"
+            android:text="@string/new_user"
+            android:textColor="#b69968"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+</LinearLayout>

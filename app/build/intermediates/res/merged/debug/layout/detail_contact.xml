@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/bg"
+    >
+        
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="5" 
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        >
+
+        <ImageView
+            android:id="@+id/iv_detail_conimg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/guangu" />
+
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:gravity="bottom"
+        >
+        
+        <TextView
+            android:id="@+id/tvnullname0"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="" 
+            android:layout_weight="3"/>
+        
+        <TextView
+            android:id="@+id/tvname1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="姓名:  " 
+            android:textSize="20sp"
+            android:layout_weight="3"
+            android:gravity="center_horizontal"/>
+
+        <TextView
+            android:id="@+id/tv_detail_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="寮犱笁"
+            android:textSize="20sp" 
+            android:layout_weight="5"
+            android:gravity="center_horizontal"/>
+        
+        
+        <TextView
+            android:id="@+id/tvname3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="" 
+            android:layout_weight="3"/>
+        
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:padding="0dp"
+        android:layout_gravity="bottom"
+        >
+        
+        <TextView
+            android:id="@+id/tvnum1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="" 
+            android:layout_weight="3"/>
+        
+        <TextView
+            android:id="@+id/tvnullnum0"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="号码:  " 
+            android:textSize="20sp"
+            android:layout_weight="3"
+            android:gravity="center_horizontal"/>
+
+        <TextView
+            android:id="@+id/tv_detail_phonenumber"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="5556"
+            android:textSize="20sp" 
+            android:layout_weight="5"
+            android:gravity="center_horizontal"/>
+        
+        
+        <TextView
+            android:id="@+id/tvnum3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="" 
+            android:layout_weight="3"/>
+        
+    </LinearLayout>
+    
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="2"
+         >
+
+        <ImageButton
+            android:id="@+id/imb_detail_call"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:paddingLeft="60dp"
+            android:paddingRight="60dp"
+            android:paddingBottom="5dp"
+            android:layout_weight="1"
+            android:src="@drawable/smallcall" 
+            android:background="#00ffffff"
+            android:scaleType="fitXY"
+	        android:onClick="call"
+	        />
+         <ImageButton
+            android:id="@+id/imb_detail_sms"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:paddingLeft="62dp"
+            android:paddingRight="62dp"
+            android:paddingBottom="5dp"
+            android:layout_weight="1"
+            android:src="@drawable/smallmess" 
+            android:background="#00ffffff"
+            android:scaleType="fitXY"
+	        android:layout_toRightOf="@id/imb_detail_call"
+	        android:onClick="mess"/>
+         
+    </LinearLayout>
+
+</LinearLayout>

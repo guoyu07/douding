@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <string name="action_settings">设置</string>
+    <string name="app_name">DouDing</string>
+    <string name="forget">忘记密码或短信登录</string>
+    <string name="new_user">新用户</string>
+    <string name="password">密码</string>
+    <string name="remember">记住密码</string>
+    <string name="user">帐号</string>
+    <string name="zidong">自动登录</string>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+</resources>
